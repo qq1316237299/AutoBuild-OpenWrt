@@ -81,7 +81,7 @@ jobs:
         git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
         git clone https://github.com/destan19/OpenAppFilter
         git clone https://github.com/jerrykuku/luci-theme-argon
-        git clone "your_github_link" package/"your_folder_name"      
+       #git clone "your_github_link" package/"your_folder_name"      
 
     - name: Configuration Customization - Build_x86_64
       env:
