@@ -77,6 +77,11 @@ jobs:
       working-directory: ./openwrt
       run: |
         git clone https://github.com/xiaorouji/openwrt-package.git
+        git clone https://github.com/tty228/luci-app-serverchan.git
+        git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+        git clone https://github.com/destan19/OpenAppFilter
+        git clone https://github.com/jerrykuku/luci-theme-argon
+        git clone https://github.com/Aslin-Ameng/luci-theme-netgear.git
         git clone "your_github_link" package/"your_folder_name"      
 
     - name: Configuration Customization - Build_x86_64
